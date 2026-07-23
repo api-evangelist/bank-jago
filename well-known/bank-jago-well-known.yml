@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://www.jago.com/.well-known/*
+host: https://www.jago.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Bank Jago publishes no /.well-known/ discovery documents on its public host.
+  Its Open API surface is exposed through Indonesia's national SNAP (Standar
+  Nasional Open API Pembayaran) programme via the ASPI developer directory
+  rather than a self-hosted discovery endpoint. Absence recorded as valid data.

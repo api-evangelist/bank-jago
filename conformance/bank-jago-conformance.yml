@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://apidevportal.aspi-indonesia.or.id/direktori-publikasi/detail?id=f498ea1e-8695-4807-ba12-4085ab0e24cc
+standards:
+- id: snap-bi
+  name: SNAP (Standar Nasional Open API Pembayaran) — Bank Indonesia national open API payment standard
+  conforms: true
+  evidence: >-
+    PT Bank Jago Tbk is listed as a publishing participant in the ASPI (Asosiasi
+    Sistem Pembayaran Indonesia) SNAP Developer directory, the national registry
+    for Indonesian Open API Payment standard participants.
+  docs: https://apidevportal.aspi-indonesia.or.id/direktori-publikasi/detail?id=f498ea1e-8695-4807-ba12-4085ab0e24cc
+- id: oauth2
+  name: OAuth 2.0 client-credentials (SNAP access-token pattern)
+  conforms: true
+  evidence: >-
+    SNAP mandates an OAuth 2.0 signature-based access-token flow (B2B token +
+    symmetric/asymmetric signature) for all participant APIs; Bank Jago's SNAP
+    participation implies conformance. No self-published OpenAPI was located to
+    verify scheme details independently.
+- id: iso-27001
+  conforms: false
+  evidence: No self-published certification page located.
+- id: pci-dss
+  conforms: false
+  evidence: No self-published certification page located.
+notes: >-
+  Bank Jago is a licensed Indonesian digital bank (PT Bank Jago Tbk, regulated
+  by OJK / Bank Indonesia). Its documented API conformance is via the national
+  SNAP programme; it does not self-host an OpenAPI or a public compliance/trust
+  page, so no `Compliance` pointer is emitted (no independently published
+  certification programme was found).

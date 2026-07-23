@@ -1,0 +1,20 @@
+# Bank Jago
+
+> PT Bank Jago Tbk is a technology-based digital bank in Indonesia, delivered life-centric through the Jago mobile application and embedded into partner ecosystems (Gojek/GoPay, Bibit, Stockbit). Its payment API surface is exposed through Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme rather than a self-hosted developer portal. This profile is maintained by the API Evangelist network from public sources.
+
+## Company
+- [Website](https://www.jago.com/en): Bank Jago official site (English)
+- [Privacy Policy](https://www.jago.com/en/privacy-policy): Personal data handling under Indonesia PDP Law No. 27 of 2022
+- [Terms & Conditions](https://www.jago.com/en/terms-and-conditions): Jago account terms
+
+## API / Open Banking
+- [SNAP Developer Directory (ASPI)](https://apidevportal.aspi-indonesia.or.id/direktori-publikasi/detail?id=f498ea1e-8695-4807-ba12-4085ab0e24cc): Bank Jago's national Open API Payment (SNAP) participation entry
+
+## Network artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/apis.yml): APIs.json index for this profile
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/conformance/bank-jago-conformance.yml): Standards conformance (SNAP, OAuth2)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/security/bank-jago-domain-security.yml): TLS/HSTS/DNSSEC/SPF/DMARC probe
+
+## Notes
+- No self-hosted OpenAPI, SDK, MCP server, or /.well-known/ discovery documents were located.
+- Regulated by OJK / Bank Indonesia; API access is B2B via the SNAP standard and partner ecosystems.

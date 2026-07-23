@@ -1,8 +1,30 @@
 aid: bank-jago
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bank-jago.png
 name: Bank Jago
-description: 'Bank Jago is a company surfaced as a portfolio company of ribbit-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  PT Bank Jago Tbk is a technology-based digital bank in Indonesia, listed on the
+  Indonesia Stock Exchange (IDX: ARTO) and backed by investors including Ribbit
+  Capital and GoTo. Rather than a branch network, Bank Jago is delivered through
+  the life-centric Jago mobile application and is deeply embedded into partner
+  ecosystems — Gojek/GoPay for payments, and Bibit/Stockbit for investing — via
+  API-based integrations. Its Open API payment surface is exposed through
+  Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme,
+  administered through the ASPI developer directory, rather than a self-hosted
+  public developer portal. Bank Jago is regulated by the Indonesian Financial
+  Services Authority (OJK) and Bank Indonesia. This API Evangelist profile is
+  compiled from public sources as a fintech company lead; the bank publishes no
+  self-hosted OpenAPI, SDK, or developer documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Banking
+- Digital Bank
+- Indonesia
+- Open Banking
+- Payments
+- SNAP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.jago.com
+  url: https://www.jago.com/en
+- type: PrivacyPolicy
+  url: https://www.jago.com/en/privacy-policy
+- type: TermsOfService
+  url: https://www.jago.com/en/terms-and-conditions
+- type: Conformance
+  url: conformance/bank-jago-conformance.yml
+- type: DomainSecurity
+  url: security/bank-jago-domain-security.yml
+- type: WellKnown
+  url: well-known/bank-jago-well-known.yml
+- type: LLMsTxt
+  url: llms/bank-jago-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
