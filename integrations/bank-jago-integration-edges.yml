@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/bank-jago/integrations
+- https://n8n.io/integrations/bank-jago/
+- https://composio.dev/toolkits/bank-jago
+- https://monid.ai/tools/bank-jago
+checked:
+- https://composio.dev/toolkits/bank-jago
+- https://monid.ai/tools/bank-jago
+- https://n8n.io/integrations/bank-jago/
+- https://zapier.com/apps/bank-jago/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
