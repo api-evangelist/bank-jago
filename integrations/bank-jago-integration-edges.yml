@@ -40,6 +40,12 @@ edges:
       evidence: https://www.bi.go.id/id/layanan/informasi-perizinan/sistem-pembayaran/default.aspx
       product: Penerbit Kartu ATM
       decision: ATM0133
+    - registered_name: Bank Jago
+      licences:
+      - BI-FAST Member
+      matched_domain: null
+      matched_by: register-name
+      evidence: https://www.bi.go.id/id/layanan/informasi-perizinan/sistem-pembayaran/default.aspx
     signal_note: 'participation only: a regulator licence; no API conformance is published by this register'
     detected_by: sweep-gulf-asean-open-finance.py
     detected: '2026-10-18'
